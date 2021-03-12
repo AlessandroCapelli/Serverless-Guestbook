@@ -77,3 +77,9 @@ const guestbook = {
     loadEntries();
   });
 })();
+
+  $(document).ready(function() {
+    prepareTemplates();
+    loadEntries();
+  });
+})();
